@@ -64,7 +64,7 @@ for (let select of dropdown) {
 function updateflag(element) {
     let currCode = element.value;
     let countryCode = countryList[currCode];
-    let newsrc = `https://flagsapi.com/${countryCode}/flat/32.png`;
+    let newsrc = `https://flagsapi.com/${countryCode}/flat/48.png`;
     let img = element.parentElement.querySelector("img");
     img.src = newsrc;
 }
